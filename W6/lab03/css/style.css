@@ -49,6 +49,6 @@ nav ul li {
   flex-grow: 4;
 }
 
-nav ul li {
+nav ul li.social {
   flex: 1;
 }
