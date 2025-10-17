@@ -52,13 +52,6 @@ nav ul li a:active {
     text-decoration: none;
 }
 
-nav ul li a {
-  padding: 10px 20px;
-  text-align: center; 
-  display: inline-block;
-  width: 25%;
-  box-sizing: border-box;
-}
 
 nav ul li a:link, nav ul li a:visited {
   color: white;
