@@ -1,66 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Personal Website</title>
-  <link rel="stylesheet" href = "css/style.css">
-
+    <meta charset="UTF-8">
+    <title>Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.4/semantic.min.css">
+    <style>
+        body {
+            background-image: url(images/wallpaper2.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+        .ui.grid {
+            margin-top: 1em !important;
+        }
+        
+        .ui.grid .column .blogs {
+            width: 100%;
+            
+            margin-bottom: 1em; 
+            box-sizing: border-box;
+        }
+        
+        .card-grid {
+           
+            display: initial; 
+        }
+    </style>
 </head>
 
 <body>
-  <div id = "container">
-<style>
-    body {
-        background-image: url(images/wallpaper2.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    a {
-        text-decoration: none;
-    }
-    
-</style>
-<header>
-<h1>Eimaan haruna</h1>
-<p id = "tagline">"What you are not changing, you're choosing."</p>
-</header>
-<section id = "content">
-<main>
-<h2 class="blogs">⋆⁺₊⋆ Welcome to my website ☆⋆｡𖦹°‧★</h2>
-     <div class="card-grid">
-
-        </style>
-            <div class="blogs">
-                <img class="blogs" src="images/blue jellyfish.jpg" width="200" height="162"
-     alt="fish" class = "feature">
-                <div class="card-image"></div>
-                <h3> ˖.𖥔 ݁ ˖ ⊹My Interests ⋆｡°✩ </h3>
-                <p>Find out what my interests are by clicking the heart!</p>
-                <button class="button" style="vertical-align:middle"><a href="interests.html" target="_blank" class="button-class">♡ </a><span> </span></button>
+    <div class="ui container"> 
+        <header>
+            <h1>Eimaan haruna</h1>
+            <div class="ui breadcrumb">
+                <a class="section">Welcome</a>
+                <div class="divider"> / </div>
+                <div class="active section">☆⋆｡𖦹°‧★ <a href="#">Home Page</a></div>
             </div>
-            <div class="card-grid">
-                <div class="blogs">
-                <img class="blogs" src="images/me and ashraf.jpeg" width="200" height="162"
-                        alt="Eimaan and Ashraf" class = "feature">
-                <div class="card-image"></div>
-                <h3>˖.𖥔 ݁ ˖ ⊹About Me ⋆｡°✩</h3>
-                <p>Get to know a little more about me by clicking the heart!</p>
-                <button class="button" style="vertical-align:middle"><a href="aboutme.html" target="_blank" class="button-class">♡ </a><span> </span></button>
-            </div>
-            <div class="card-grid">
-                <div class="blogs">
-                <img class="blogs" src="images/blue galaxy.jpg" width="200" height="162"
-     alt="Eimaan Haruna  ☆ " class = "feature">
-                <div class="card-image"></div>
-                <h3>˖.𖥔 ݁ ˖ ⊹Hobbies ⋆｡°✩</h3>
-                <p>Find out what my hobbies are by clicking the heart!</p>
-                <button class="button" style="vertical-align:middle"><a href="hobbies.html" target="_blank" class="button-class">♡ </a><span> </span></button>
-            </div>
+            <p id="tagline">"What you are not changing, you're choosing."</p>
+        </header>
+        <section id="content">
+            <main>
+                <h2 class="blogs">⋆⁺₊⋆ Welcome to my website ☆⋆｡𖦹°‧★</h2>
                 
+                <div class="ui stackable three column grid"> 
 
-</main>
-</section>
-</div>
+                    <div class="column"> 
+                        <div class="blogs">
+                            <img class="blogs" src="images/blue jellyfish.jpg" width="200" height="162" alt="fish" class="feature">
+                            <div class="card-image"></div>
+                            <h3> ˖.𖥔 ݁ ˖ ⊹My Interests ⋆｡°✩ </h3>
+                            <p>Find out what my interests are by clicking the heart!</p>
+                            <button class="button" style="vertical-align:middle"><a href="interests.html" target="_blank" class="button-class">♡ </a><span> </span></button>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="blogs">
+                            <img class="blogs" src="images/me and ashraf.jpeg" width="200" height="162" alt="Eimaan and Ashraf" class="feature">
+                            <div class="card-image"></div>
+                            <h3>˖.𖥔 ݁ ˖ ⊹About Me ⋆｡°✩</h3>
+                            <p>Get to know a little more about me by clicking the heart!</p>
+                            <button class="button" style="vertical-align:middle"><a href="aboutme.html" target="_blank" class="button-class">♡ </a><span> </span></button>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="blogs">
+                            <img class="blogs" src="images/blue galaxy.jpg" width="200" height="162" alt="Eimaan Haruna ☆ " class="feature">
+                            <div class="card-image"></div>
+                            <h3>˖.𖥔 ݁ ˖ ⊹Hobbies ⋆｡°✩</h3>
+                            <p>Find out what my hobbies are by clicking the heart!</p>
+                            <button class="button" style="vertical-align:middle"><a href="hobbies.html" target="_blank" class="button-class">♡ </a><span> </span></button>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="blogs">
+                            <img class="blogs" src="images/star.jpg" width="200" height="162" alt="Eimaan Haruna ☆ " class="feature">
+                            <div class="card-image"></div>
+                            <h3>˖.𖥔 ݁ ˖ ⊹ Artists ⋆｡°✩</h3>
+                            <p>Find out who my favourite artists are!</p>
+                            <button class="button" style="vertical-align:middle"><a href="artists.html" target="_blank" class="button-class">♡ </a><span> </span></button>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="blogs">
+                            <img class="blogs" src="images/girl.jpg" width="200" height="162" alt="Eimaan Haruna ☆ " class="feature">
+                            <div class="card-image"></div>
+                            <h3>˖.𖥔 ݁ ˖ ⊹ Games ⋆｡°✩</h3>
+                            <p>Find out my favouirte games!!!!!!</p>
+                            <button class="button" style="vertical-align:middle"><a href="games.html" target="_blank" class="button-class">♡ </a><span> </span></button>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="blogs">
+                            <img class="blogs" src="images/bluegirl.jpg" width="200" height="162" alt="Eimaan Haruna ☆ " class="feature">
+                            <div class="card-image"></div>
+                            <h3>˖.𖥔 ݁ ˖ ⊹ Form ⋆｡°✩</h3>
+                            <p> Send a fedback form of this website!</p>
+                            <button class="button" style="vertical-align:middle"><a href="form.html" target="_blank" class="button-class">♡ </a><span> </span></button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
 </body>
 </html>
